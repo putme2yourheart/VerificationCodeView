@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerificationCodeView">
+        <attr name="codeTextSize" format="dimension"/>
+        <attr name="codeBackground" format="color"/>
+        <attr name="codeLength" format="integer"/>
+        <attr name="verifyDegree">
+            <enum name="easy" value="0"/>
+            <enum name="mid" value="1"/>
+            <enum name="diff" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
